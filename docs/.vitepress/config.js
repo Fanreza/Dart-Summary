@@ -5,8 +5,8 @@ export default {
   description: "just a documentation for me when learning dart programming languange",
   editLink: true,
   head: [
-    ["meta", { property: "og:description", content: "Panduan refactoring untuk mengatasi code berantakan yang anda buat." }],
-    ["meta", { property: "og:image", content: "https://user-images.githubusercontent.com/45036724/184270375-8b25b8fb-fbf8-48fc-8dd8-9162d1ea049a.png" }],
+    ["meta", { property: "og:description", content: "Dokumentasi belajar Dart, dibuat sebagai pengingat" }],
+    // ["meta", { property: "og:image", content: "https://user-images.githubusercontent.com/45036724/184270375-8b25b8fb-fbf8-48fc-8dd8-9162d1ea049a.png" }],
     ["meta", { property: "og:type", content: "article" }],
   ],
   themeConfig: {
