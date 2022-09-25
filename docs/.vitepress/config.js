@@ -27,7 +27,7 @@ export default {
       {
         text: "Dart Dasar",
         items: [
-          { text: "Variable", link: "/dasar/variables/" },
+          { text: "Variable dan Tipe Data", link: "/dasar/variables/" },
           { text: "Operator", link: "/dasar/operator/" },
           { text: "Comment", link: "/dasar/comment/" },
           { text: "Conditional", link: "/dasar/conditional/" },
