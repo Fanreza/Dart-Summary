@@ -27,12 +27,12 @@ export default {
       {
         text: "Dart Dasar",
         items: [
-          { text: "Variable", link: "/getting-started/history/" },
-          { text: "Operator", link: "/getting-started/instalasi/" },
-          { text: "Comment", link: "/" },
-          { text: "Conditional", link: "/" },
-          { text: "Looping", link: "/" },
-          { text: "Function", link: "/" },
+          { text: "Variable", link: "/dasar/variables/" },
+          { text: "Operator", link: "/dasar/operator/" },
+          { text: "Comment", link: "/dasar/comment/" },
+          { text: "Conditional", link: "/dasar/conditional/" },
+          { text: "Looping", link: "/dasar/looping/" },
+          { text: "Function", link: "/dasar/function/" },
         ],
       },
 
