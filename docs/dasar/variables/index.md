@@ -106,3 +106,23 @@ print(dynamicVariable); // Hello World
 dynamicVariable = true;
 print(dynamicVariable); // true
 ```
+
+## Tipe data Var
+
+Keadaan dimana kita ingin merubah value dari sebuah variable namun tidak dapat merubah tipe data nya
+
+```dart
+var intVariable = 123;   // intVariable sudah dijadikan int
+intVariable = 456;  // isi dari intVariable dirubah
+intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
+```
+
+## Tipe data Final
+
+Keadaan dimana kita tidak dapat merubah tipe data maupun value dari sebuah variable
+
+```dart
+final intVariable = 123; // intVariable sudah dijadikan int
+intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
+intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
+```
