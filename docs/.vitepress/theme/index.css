@@ -1,0 +1,17 @@
+:root {
+  --vp-home-hero-name-background: linear-gradient(to right, #4c87f1, #73bae9);
+  --vp-home-hero-name-color: transparent;
+
+  --vp-button-brand-bg: #4c87f1;
+  --vp-button-brand-border: #4c87f1;
+  --vp-button-brand-hover-bg: #4c87f1;
+  --vp-button-brand-hover-border: #4c87f1;
+  --vp-button-brand-active-border: #4c87f1;
+
+  --vp-c-brand: #4c87f1;
+  --vp-c-brand-dark: #4c87f1;
+}
+
+.vp-doc a {
+  text-decoration: underline;
+}
