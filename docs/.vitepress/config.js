@@ -47,6 +47,7 @@ export default {
           { text: "Object", link: "/oop/object/" },
           { text: "Property", link: "/oop/property/" },
           { text: "Method", link: "/oop/method/" },
+          { text: "Contructor", link: "/oop/constructor/" },
         ],
       },
     ],
