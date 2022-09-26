@@ -47,7 +47,7 @@ intVariable = 'abc'; // ERROR: can't change type of intVariable from int to Stri
 
 ## Keyword Null
 
-Keadaan dimana kita ingin membuat variable yang tidak memiliki value
+Keadaan dimana kita ingin membuat variable yang tidak memiliki value, dart secara default mewajibkan kita untuk menginisialisasi variable dengan value.
 
 ```dart
 int? intVariable;

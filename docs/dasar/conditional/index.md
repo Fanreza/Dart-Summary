@@ -40,6 +40,23 @@ if(false){
 }
 ```
 
+### Ternary operator
+
+untuk menyederhanakan `if else` kita bisa menggunakan ternary operator
+
+```dart
+var a = 10;
+
+// Sama seperti if dan else
+var b = a > 10 ? 'a lebih besar dari 10' : 'a lebih kecil dari 10';
+
+// juga mendukung else if
+var c = a > 10 ? 'a lebih besar dari 10' : a < 10 ? 'a lebih kecil dari 10' : 'a sama dengan 10';
+
+print(b); // a lebih kecil dari 10
+print(c); // a sama dengan 10
+```
+
 ## `switch`
 
 Perkondisian sederhana dapat ditulis dengan menggunakan `switch` statement, dan hanya mendukung `==` operator.

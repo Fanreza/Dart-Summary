@@ -33,6 +33,7 @@ export default {
           { text: "Conditional", link: "/dasar/conditional/" },
           { text: "Looping", link: "/dasar/looping/" },
           { text: "Function", link: "/dasar/function/" },
+          { text: "Null Safety", link: "/dasar/null-safe/" },
         ],
       },
 
