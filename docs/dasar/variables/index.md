@@ -35,6 +35,25 @@ intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
 intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
 ```
 
+## Keyword Const
+
+Keadaan dimana kita tidak dapat merubah tipe data maupun value dari sebuah variable
+
+```dart
+const intVariable = 123; // intVariable sudah dijadikan int
+intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
+intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
+```
+
+## Keyword Null
+
+Keadaan dimana kita ingin membuat variable yang tidak memiliki value
+
+```dart
+int? intVariable;
+print(intVariable); // null
+```
+
 ## Tipe data Number
 
 ### 1. Integer
