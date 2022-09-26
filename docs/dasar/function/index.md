@@ -243,3 +243,37 @@ void main(){
     print(capitalizeName("jamil")); // JAMIL
 }
 ```
+
+## Recursive Function
+
+Recursive function adalah fungsi yang memanggil dirinya sendiri, biasanya digunakan untuk menghitung nilai faktorial
+
+```dart
+int factorial(int number){
+    if(number == 1){
+        return 1;
+    }else{
+        return number * factorial(number - 1);
+    }
+}
+
+void main(){
+    print(factorial(5)); // 120
+}
+```
+
+### Stack Overflow
+
+Stack overflow adalah error yang terjadi ketika fungsi memanggil dirinya sendiri terlalu banyak, dan memenuhi batas stack yang telah ditentukan
+
+```dart
+int loop(int value){
+    print("loop" ke $value);
+
+    loop(value - 1);
+}
+
+void main(){
+    loop(100000000000000000000); // error akan muncul sesuai dengan spesifikasi device yang digunakan
+}
+```
