@@ -34,6 +34,7 @@ export default {
           { text: "Looping", link: "/dasar/looping/" },
           { text: "Function", link: "/dasar/function/" },
           { text: "Null Safety", link: "/dasar/null-safe/" },
+          { text: "Scope", link: "/dasar/scope/" },
         ],
       },
 
@@ -46,7 +47,7 @@ export default {
       pattern: "https://github.com/fanreza",
       text: "Ubah halaman ini di GitHub",
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/zuramai/refactoring" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/fanreza" }],
     footer: {
       message: "Created by Fanreza",
     },
