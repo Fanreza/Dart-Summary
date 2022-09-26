@@ -1,5 +1,40 @@
 # Variable dan Tipe Data
 
+## Keyword Dynamic
+
+Keadaan dimana kita ingin membuat variable yang dapat menampung semua tipe data
+
+```dart
+dynamic dynamicVariable = 1;
+print(dynamicVariable); // 1
+
+dynamicVariable = 'Hello World';
+print(dynamicVariable); // Hello World
+
+dynamicVariable = true;
+print(dynamicVariable); // true
+```
+
+## Keyword Var
+
+Keadaan dimana kita ingin merubah value dari sebuah variable namun tidak dapat merubah tipe data nya
+
+```dart
+var intVariable = 123;   // intVariable sudah dijadikan int
+intVariable = 456;  // isi dari intVariable dirubah
+intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
+```
+
+## Keyword Final
+
+Keadaan dimana kita tidak dapat merubah tipe data maupun value dari sebuah variable
+
+```dart
+final intVariable = 123; // intVariable sudah dijadikan int
+intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
+intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
+```
+
 ## Tipe data Number
 
 ### 1. Integer
@@ -90,41 +125,6 @@ Boolean merupakan tipe data yang berisi nilai benar atau salah.
 ```dart
 bool boolVariable = true;
 bool boolVariable = false;
-```
-
-## Tipe data Dynamic
-
-Keadaan dimana kita ingin membuat variable yang dapat menampung semua tipe data
-
-```dart
-dynamic dynamicVariable = 1;
-print(dynamicVariable); // 1
-
-dynamicVariable = 'Hello World';
-print(dynamicVariable); // Hello World
-
-dynamicVariable = true;
-print(dynamicVariable); // true
-```
-
-## Tipe data Var
-
-Keadaan dimana kita ingin merubah value dari sebuah variable namun tidak dapat merubah tipe data nya
-
-```dart
-var intVariable = 123;   // intVariable sudah dijadikan int
-intVariable = 456;  // isi dari intVariable dirubah
-intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
-```
-
-## Tipe data Final
-
-Keadaan dimana kita tidak dapat merubah tipe data maupun value dari sebuah variable
-
-```dart
-final intVariable = 123; // intVariable sudah dijadikan int
-intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
-intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
 ```
 
 ## Tipe data list
@@ -223,9 +223,71 @@ Map<String, String> mapVariable = {
     'key2': 'value2',
     'key3': 'value3',
 };
+
+var mapVariable = Map<String, String>{
+    'key1': 'value1',
+    'key2': 'value2',
+    'key3': 'value3',
+};
+
 var mapVariable = <String, String>{
     'key1': 'value1',
     'key2': 'value2',
     'key3': 'value3',
 };
+```
+
+### Menambah data ke map
+
+```dart
+var mapName = <String, String>{};
+mapName['key1'] = 'value1';
+mapName['key2'] = 'value2';
+
+print(mapName); // {key1: value1, key2: value2}
+```
+
+### Mengambil data dari map
+
+```dart
+var mapName = <String, String>{
+    'key1': 'value1',
+    'key2': 'value2',
+};
+
+print(mapName['key1']); // value1
+```
+
+### Merubah data map berdasarkan key
+
+```dart
+var mapName = <String, String>{
+    'key1': 'value1',
+    'key2': 'value2',
+};
+
+mapName['key1'] = 'value3';
+print(mapName); // {key1: value3, key2: value2}
+```
+
+### Menghapus data map berdasarkan key
+
+```dart
+var mapName = <String, String>{
+    'key1': 'value1',
+    'key2': 'value2',
+};
+
+mapName.remove('key1');
+
+print(mapName); // {key2: value2}
+```
+
+## Tipe data Symbol
+
+Symbol merupakan tipe data yang berisi simbol yang unik.
+
+```dart
+var symbolVariable = #symbol;
+Symbol symbolVariable = Sybmol('Sebuah Symbol');
 ```
