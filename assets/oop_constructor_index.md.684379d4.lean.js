@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a as o}from"./app.a5d2354c.js";const D=JSON.parse('{"title":"Constructor","description":"","frontmatter":{},"headers":[],"relativePath":"oop/constructor/index.md"}'),e={name:"oop/constructor/index.md"},p=o("",5),l=[p];function t(c,r,i,C,A,d){return n(),a("div",null,l)}const m=s(e,[["render",t]]);export{D as __pageData,m as default};
