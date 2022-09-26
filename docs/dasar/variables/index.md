@@ -126,3 +126,106 @@ final intVariable = 123; // intVariable sudah dijadikan int
 intVariable = 456; // ERROR: can't change value of intVariable from 123 to 456.
 intVariable = 'abc'; // ERROR: can't change type of intVariable from int to String.
 ```
+
+## Tipe data list
+
+List merupakan tipe data yang berisi kumpulan data.
+untuk membuat list kita dapat menggunakan `( [] )`
+
+```dart
+List<int> listVariable = [1, 2, 3];
+var listVariable = <int>[1, 2, 3];
+```
+
+### Menambah data ke list
+
+```dart
+var listName = <String>[];
+listName.add('Jamil');
+listName.add('Fanreza');
+
+print(listName); // [Jamil, Fanreza]
+print(listName.length); // 2
+```
+
+### Mengambil data dari list
+
+```dart
+var listName = <String>['Jamil', 'Fanreza'];
+
+print(listName[0]); // Jamil
+print(listName[1]); // Fanreza
+```
+
+### Merubah data list berdasarkan index
+
+```dart
+var listName = <String>['Jamil', 'Fanreza'];
+
+listName[0] = 'Jamil Fanreza';
+print(listName); // [Jamil Fanreza, Fanreza]
+```
+
+### Menghapus data list berdasarkan index
+
+```dart
+var listName = <String>['Jamil', 'Fanreza'];
+listName.removeAt(0);
+print(listName); // [Fanreza]
+```
+
+## Tipe data Set
+
+Set merupakan tipe data yang berisi kumpulan data yang tidak boleh sama ( Unique ).
+untuk membuat set kita dapat menggunakan `( {} )`
+
+```dart
+Set<int> setVariable = {1, 2, 3};
+var setVariable = <int>{1, 2, 3};
+```
+
+### Menambah data ke set
+
+```dart
+var setName = <String>{};
+setName.add('Jamil');
+setName.add('Fanreza');
+
+print(setName); // {Jamil, Fanreza}
+print(setName.length); // 2
+```
+
+### Mengambil data dari set
+
+```dart
+
+var setName = <String>{'Jamil', 'Fanreza'};
+print(setName.elementAt(0)); // Jamil
+print(setName.elementAt(1)); // Fanreza
+```
+
+### Menghapus data dari set
+
+```dart
+var setName = <String>{'Jamil', 'Fanreza'};
+setName.remove('Jamil');
+print(setName); // {Fanreza}
+```
+
+## Tipe data Map
+
+Map adalah tipe data yang berisi kumpulan data yang memiliki key dan value.
+berbeda dengan list yang memiliki index dengan auto increment dan set yang memiliki index dengan unique, map memiliki index yang dapat kita tentukan sendiri.
+
+```dart
+Map<String, String> mapVariable = {
+    'key1': 'value1',
+    'key2': 'value2',
+    'key3': 'value3',
+};
+var mapVariable = <String, String>{
+    'key1': 'value1',
+    'key2': 'value2',
+    'key3': 'value3',
+};
+```
