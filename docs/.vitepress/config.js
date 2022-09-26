@@ -16,7 +16,7 @@ export default {
     ],
     sidebar: [
       {
-        text: "Pengenalan",
+        text: "Dart Pengenalan",
         items: [
           { text: "Sejarah", link: "/getting-started/history/" },
           { text: "Instalasi", link: "/getting-started/instalasi/" },
@@ -27,6 +27,7 @@ export default {
       {
         text: "Dart Dasar",
         items: [
+          { text: "Pengenalan", link: "/dasar/" },
           { text: "Variable dan Tipe Data", link: "/dasar/variables/" },
           { text: "Operator", link: "/dasar/operator/" },
           { text: "Comment", link: "/dasar/comment/" },
@@ -40,7 +41,13 @@ export default {
 
       {
         text: "Dart Object Oriented",
-        items: [{ text: "Comming Soon", link: "/" }],
+        items: [
+          { text: "Pengenalan", link: "/oop/" },
+          { text: "Class", link: "/oop/class/" },
+          { text: "Object", link: "/oop/object/" },
+          { text: "Property", link: "/oop/property/" },
+          { text: "Method", link: "/oop/method/" },
+        ],
       },
     ],
     editLink: {
