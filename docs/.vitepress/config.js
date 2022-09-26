@@ -12,7 +12,7 @@ export default {
   themeConfig: {
     nav: [
       { text: "Mulai", link: "/getting-started/" },
-      { text: "Latar Belakang", link: "/about/" },
+      { text: "Latar Belakang", link: "/about.html" },
     ],
     sidebar: [
       {
@@ -48,11 +48,12 @@ export default {
           { text: "Property", link: "/oop/property/" },
           { text: "Method", link: "/oop/method/" },
           { text: "Contructor", link: "/oop/constructor/" },
+          { text: "Shadowing", link: "/oop/shadowing/" },
         ],
       },
     ],
     editLink: {
-      pattern: "https://github.com/fanreza",
+      pattern: "https://github.com/fanreza/edit/main/docs/:path'",
       text: "Ubah halaman ini di GitHub",
     },
     socialLinks: [{ icon: "github", link: "https://github.com/fanreza" }],
