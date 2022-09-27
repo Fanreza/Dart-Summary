@@ -11,7 +11,7 @@ export default {
   ],
   themeConfig: {
     nav: [
-      { text: "Mulai", link: "/getting-started/" },
+      { text: "Mulai", link: "/getting-started/history/" },
       { text: "Latar Belakang", link: "/about.html" },
     ],
     sidebar: [
@@ -55,6 +55,13 @@ export default {
         ],
       },
     ],
+
+    algolia: {
+      // appId: "8J64VVRP8K",
+      // apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
+      indexName: "vitepress",
+    },
+
     editLink: {
       pattern: "https://github.com/Fanreza/Dart-Summary/edit/main/docs/:path",
       text: "Ubah halaman ini di GitHub",

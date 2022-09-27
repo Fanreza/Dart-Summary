@@ -126,3 +126,28 @@ void main() {
   print(person3.age); // 0
 }
 ```
+
+## Initializer List
+
+Cara menginisialisasi sebuah nilai dari property secara langsung tanpa menuliskan pada body constructor
+
+```dart
+class Person {
+  String? name;
+  String? lastName;
+  String? firstName;
+
+  Person(this.name)
+      : firstName = name?.split(' ')[0],
+        lastName = name?.split(' ')[1]{
+        print('Constructor dibuat'); // dapat menambahkan body
+  }
+}
+
+void main() {
+  Person person = Person("Muhamad Jamil Fanreza");
+  print(person.firstName); // Muhamad
+  print(person.lastName); // Fanreza
+  print(person.name); // Muhamad Jamil Fanreza
+}
+```
