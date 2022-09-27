@@ -15,3 +15,7 @@
 .vp-doc a {
   text-decoration: underline;
 }
+
+.vp-doc a:hover {
+  text-decoration: none;
+}
