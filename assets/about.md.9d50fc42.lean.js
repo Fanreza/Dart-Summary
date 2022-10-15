@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a as n}from"./app.bf21e1c1.js";const c=JSON.parse('{"title":"Latar Belakang Pembuatan","description":"","frontmatter":{"layout":"Page"},"headers":[],"relativePath":"about.md"}'),r={name:"about.md"},i=n("",8),s=[i];function l(m,o,d,p,u,k){return t(),e("div",null,s)}const h=a(r,[["render",l]]);export{c as __pageData,h as default};

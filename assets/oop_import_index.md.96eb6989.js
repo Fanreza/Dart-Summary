@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.bf21e1c1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"oop/import/index.md"}'),r={name:"oop/import/index.md"};function a(n,s,c,p,i,d){return o(),t("div")}const f=e(r,[["render",a]]);export{m as __pageData,f as default};
