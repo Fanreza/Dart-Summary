@@ -302,11 +302,13 @@ mapName.remove('key1');
 print(mapName); // {key2: value2}
 ```
 
-## Tipe data Symbol
+## 8. Tipe data Symbol
 
-Symbol merupakan tipe data yang berisi simbol yang unik.
+Symbol merupakan tipe data yang berisi simbol yang unik, biasa digunakan untuk memberikan informasi mengenai type,class, method dan lain-lain.
+
+symbol dapat dibuat dengan 2 cara, yaitu menggunakan `Symbol()` atau `#`.
 
 ```dart
-var symbolVariable = #symbol;
-Symbol symbolVariable = Sybmol('Sebuah Symbol');
+var symbolVariable = #symbol; // menggunakan # untuk membuat symbol hanya bisa untuk 1 kata atau tidak boleh terdapat spasi
+Symbol symbolVariable = Symbol('Sebuah Symbol'); // menggunakan Symbol() untuk membuat symbol bisa untuk lebih dari 1 kata atau boleh terdapat spasi
 ```

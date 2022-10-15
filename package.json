@@ -13,5 +13,9 @@
   "dependencies": {
     "vitepress": "^1.0.0-alpha.15",
     "vue": "^3.2.39"
+  },
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "vitepress-plugin-search": "^1.0.4-alpha.11"
   }
 }

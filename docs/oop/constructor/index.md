@@ -151,3 +151,28 @@ void main() {
   print(person.name); // Muhamad Jamil Fanreza
 }
 ```
+
+## Const Constructor
+
+Ketika kita ingin membuat sebuah `Class` yang datanya tidak akan pernah berubah _immutable_ sebaiknya kita membuat `Constructor` nya dalam bentuk constant juga.
+
+Mendukung sharing data karena data didalam nya aman dari perubahan.
+
+**Pastikan setiap property yang dimiliki class bersifat final**
+
+```dart
+class theImmutableClass{
+    final String name;
+    final int age;
+
+    const theImmutableClass(this.name, this.age);
+}
+
+void main(){
+    const person1 = theImmutableClass('Jamil', 18);  // gunakan const agar object yang dibuat merupakan object yang sama
+    const person2 = theImmutableClass('Jamil', 18);
+
+    print(identical(person1, person2)); // true
+}
+
+```

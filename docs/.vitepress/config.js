@@ -52,15 +52,27 @@ export default {
           { text: "Inheritance", link: "/oop/inheritance/" },
           { text: "Polymorphism", link: "/oop/polymorphism/" },
           { text: "Import", link: "/oop/import/" },
+          // Coming soon start here
+          { text: "Error Handling", link: "/oop/*/" },
+          { text: "Abstract Class", link: "/oop/*/" },
+          { text: "Access Modifier", link: "/oop/*/" },
+          { text: "Interface", link: "/oop/*/" },
+          { text: "Object Equals", link: "/oop/*/" },
+          { text: "No Such Method", link: "/oop/*/" },
+          { text: "Callable Class", link: "/oop/*/" },
+          { text: "Typedef", link: "/oop/*/" },
+          { text: "Static", link: "/oop/*/" },
+          { text: "Enum", link: "/oop/*/" },
+          { text: "Metadata", link: "/oop/*/" },
         ],
       },
     ],
 
-    algolia: {
-      // appId: "8J64VVRP8K",
-      // apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-      indexName: "vitepress",
-    },
+    // algolia: {
+    //   // appId: "8J64VVRP8K",
+    //   // apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
+    //   indexName: "vitepress",
+    // },
 
     editLink: {
       pattern: "https://github.com/Fanreza/Dart-Summary/edit/main/docs/:path",
