@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as n,a as p}from"./app.3eda78d0.js";const d=JSON.parse('{"title":"Scope","description":"","frontmatter":{},"headers":[],"relativePath":"dasar/scope/index.md"}'),l={name:"dasar/scope/index.md"},o=p("",3),e=[o];function c(t,r,A,i,C,y){return n(),s("div",null,e)}const F=a(l,[["render",c]]);export{d as __pageData,F as default};
