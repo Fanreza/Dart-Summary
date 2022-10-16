@@ -52,10 +52,10 @@ export default {
           { text: "Inheritance", link: "/oop/inheritance/" },
           { text: "Polymorphism", link: "/oop/polymorphism/" },
           { text: "Import", link: "/oop/import/" },
+          { text: "Abstract Class", link: "/oop/abstract/" },
           // Coming soon start here
-          { text: "Error Handling", link: "/oop/*/" },
-          { text: "Abstract Class", link: "/oop/*/" },
-          { text: "Access Modifier", link: "/oop/*/" },
+
+          { text: "Access Modifier", link: "/oop/access-modifier/" },
           { text: "Interface", link: "/oop/*/" },
           { text: "Object Equals", link: "/oop/*/" },
           { text: "No Such Method", link: "/oop/*/" },
@@ -64,6 +64,7 @@ export default {
           { text: "Static", link: "/oop/*/" },
           { text: "Enum", link: "/oop/*/" },
           { text: "Metadata", link: "/oop/*/" },
+          { text: "Error Handling", link: "/oop/*/" },
         ],
       },
     ],
