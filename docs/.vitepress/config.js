@@ -1,5 +1,5 @@
 export default {
-  base: "/Dart-Summary/",
+  base: "/",
   lang: "id-ID",
   title: "Dart Summary",
   description: "just a documentation for me when learning dart programming languange",
