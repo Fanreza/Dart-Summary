@@ -1,10 +1,6 @@
 # Dart-Summary
-Dokumentasi hasil belajar Dart, dibuat sebagai pengingat ketika lupa
 
-Dibuat dengan Vitepress
-
-
-## Instalasi
+## Instalation
 
 1. Clone Repository
 
@@ -19,15 +15,10 @@ cd Dart-Summary
 npm install
 ```
 
-3. Jalankan
+3. Run app
 
 ```sh
 npm run docs:dev
 ```
 
-buka `http://localhost:5173/Dart-Summary/` di browser
-
-
-## Kontribusi
-
-Repositori ini terbuka bagi siapapun untuk berkontribusi, segala materi di dalam repositori ini berdasarkan pengalaman saya ketika belajar dart, jika ada penamaan/syntax/penggunaan yang salah, silahkan buka `pull request` saya dengan senang hati dan berterimakasih atas segala kontribusi nya
+open `http://localhost:5173/Dart-Summary/` in browser
